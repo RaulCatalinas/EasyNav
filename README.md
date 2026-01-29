@@ -131,7 +131,11 @@ EasyTabNav(
 Button(onClick = { navController.navigate("details/123") }) {
     Text("View Details")
 }
-Custom Start Destination
+```
+
+### Custom Start Destination
+
+```kotlin
 EasyTabNav(
     tabs = myTabs,
     startDestination = "profile" // Defaults to first tab
