@@ -12,7 +12,7 @@ Zero-configuration navigation library for Android. Install, use, ship.
 
 ```kotlin
 dependencies {
-    implementation("io.github.raulcatalinas.easynav:easynav:1.0.0")
+    implementation("io.github.raulcatalinas.easynav:easynav-tab:1.0.0")
 }
 ```
 
