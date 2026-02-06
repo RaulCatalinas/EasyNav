@@ -151,7 +151,7 @@ data class TabItem(
     val route: String,
     val label: String,
     val icon: ImageVector,
-    val selectedIcon: ImageVector? = null, // Optional different icon when selected
+    val selectedTint: Color? = null, // Optional color when tab is selected
     val screen: @Composable () -> Unit
 )
 ```
