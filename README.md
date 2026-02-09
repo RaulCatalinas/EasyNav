@@ -150,8 +150,7 @@ EasyTabNav(
 data class TabItem(
     val route: String,
     val label: String,
-    val icon: ImageVector,
-    val selectedTint: Color? = null, // Optional color when tab is selected
+    val icon: ImageVector?, // Optional icon displayed in the navigation bar
     val screen: @Composable () -> Unit
 )
 ```
